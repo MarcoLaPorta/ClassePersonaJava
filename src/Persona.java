@@ -99,6 +99,11 @@ public class Persona {
         return this.nome.equalsIgnoreCase(p.nome);
     }
 
+    /**
+     *  Restituisce una rappresentazione testuale di un oggetto Persona, nel seguente formato "NOME:xx COGNOME:xx CF:xx"
+     *
+     * @return La rappresentazione testuale di un oggetto Persona
+     */
     public String toString(){
         return "NOME: " + nome + " COGNOME: " + cognome + " CF: " + codice;
     }
